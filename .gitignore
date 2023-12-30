@@ -17,8 +17,10 @@
 
 .ttf
 .txt
-webfonts
-style/all.min.css
-style/sign-up.css
-style/sucess.css
+/webfonts
+/style/all.min.css
+/style/sign-up.css
+/style/sucess.css
 .map
+/assets/fonts
+/design
