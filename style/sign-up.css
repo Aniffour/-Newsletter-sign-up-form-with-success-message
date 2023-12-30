@@ -204,6 +204,13 @@ main section form {
   padding-top: 2rem;
   min-width: 100%;
 }
+main section form label.error::before {
+  content: "email invalid";
+  position: absolute;
+  right: 0;
+  color: hsl(4, 100%, 67%);
+  font-weight: bold;
+}
 main section form label {
   width: 100%;
   display: block;

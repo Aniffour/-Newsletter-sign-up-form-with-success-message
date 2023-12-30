@@ -82,19 +82,20 @@ main {
     form {
       padding-top: 2rem;
       min-width: 100%;
+      label.error::before {
+        content: "email invalid";
+        position: absolute;
+        right: 0;
+        color: $Primary-color;
+        font-weight: bold;
+      }
+
       label {
         width: 100%;
         display: block;
         text-align: start;
         font-weight: bold;
         position: relative;
-        // &::before {
-        //   content: "email invalid";
-        //   position: absolute;
-        //   right: 0;
-        //   color: $Primary-color;
-        //   font-weight: bold;
-        // }
       }
       input {
         min-width: 100%;
